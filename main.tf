@@ -9,10 +9,10 @@ module "vpc" {
 
 #Creating S3 bucket using S3 module
 
-module "mys3" {
-  source      = "./s3"
-  bucket_name = var.bucket_name
-}
+#module "mys3" {
+ # source      = "./s3"
+ # bucket_name = var.bucket_name
+#}
 
 /*
 # Creating Prod EC2 instance with EC2 Module
